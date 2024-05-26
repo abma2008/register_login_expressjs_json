@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_expressjs_authentication",
+  "version": "1.0.0",
+  "description": "* the current example is a good practice to see how the authentication is checked using nodejs and expressjs and bcrypt\r # Packages used in this tutorial:\r * expressJS\r * nodemon\r * bcrypt\r * editing package.json to accept type: \"module\" instead of the default \"commonjs\"\r # The Database:\r * we are not using database, we are using an array to push and check users\r * it is an in-memory list that gets empty everytime a server restarts.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.1"
+  }
+}
